@@ -146,6 +146,13 @@ console.log('hello')
   Return a new object with all of the information that you passed in.
 */
 
+function makePerson(name, birthday, ssn){
+return {
+  name: name,
+  birthday: birthday,
+  ssn: ssn
+}
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -154,6 +161,8 @@ console.log('hello')
   Return that object so that whenever you invoke makeCard, you get a brand new credit card.
 */
 
-function makeCard(){
-
+function makeCard(cardNumber, expirationDate, securityCode){
+return{
+  
+}
 }
